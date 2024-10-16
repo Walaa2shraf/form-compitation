@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>خلفية فيديو ثابتة</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="video-background">
+      <video autoplay muted loop>
+        <source src="video.mp4" type="video/mp4" />
+        متصفحك لا يدعم الفيديو.
+      </video>
+    </div>
+    <div class="body-form">
+      <div class="form-wrapper">
+        <h1>Competition Registration</h1>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your full name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="university">University</label>
+            <input
+              type="text"
+              id="university"
+              name="university"
+              placeholder="Enter your university"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="faculty">Faculty</label>
+            <input
+              type="text"
+              id="faculty"
+              name="faculty"
+              placeholder="Enter your faculty"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="academicYear">Academic Year</label>
+            <input
+              type="text"
+              id="academicYear"
+              name="academicYear"
+              placeholder="Enter your academic year"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="handle">Handle</label>
+            <input
+              type="text"
+              id="handle"
+              name="handle"
+              placeholder="Enter your coding handle"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label for="nationalId">National ID</label>
+            <input
+              type="text"
+              id="nationalId"
+              name="nationalId"
+              placeholder="Enter your National ID"
+              required
+            />
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
